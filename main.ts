@@ -8,7 +8,7 @@ namespace launch {
         }
         servos.P0.setAngle(0)
     }
-    //% block="launch with force %force"
+    //% block="launch with degs %degs"
     //% degs.min=20 degs.max=100
     export function launchDeg(degs: number){
         servos.P0.setAngle(degs)
